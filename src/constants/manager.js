@@ -1,0 +1,3 @@
+export const GET_LIST = 'MANAGER:GET_LIST';
+export const GET_ELEMENT = 'MANAGER:GET_ELEMENT';
+export const GET_VENUES = 'MANAGER:GET_VENUES';

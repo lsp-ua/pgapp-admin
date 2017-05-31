@@ -1,0 +1,32 @@
+.align-r{
+  float: right;
+  color:red;
+}
+
+.align-r:hover{
+  cursor:pointer;
+}
+
+.icon-margin:hover{
+  cursor:pointer;
+}
+
+.icon-margin{
+  margin-right: 5px;
+}
+
+.button-margin{
+  margin-top: 5px;
+}
+.vertical-line{
+  border-right: 1px solid #333;
+}
+.radio label{
+  width:100%;
+}
+
+@media screen and (max-width: 991px) {
+  .vertical-line{
+    border-right: 0;
+  }
+}

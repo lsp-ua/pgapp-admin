@@ -1,0 +1,28 @@
+.prof-list .panel-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.prof-list-row {
+  display: block;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.prof-list-row + .prof-list-row {
+  border-top: 1px solid #ccc;
+}
+
+.prof-list-row .cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.prof-list-row .cell + .cell {
+  border-left: 1px solid #ccc;
+}
+
+

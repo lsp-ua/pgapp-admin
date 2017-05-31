@@ -1,0 +1,92 @@
+.personal-info .avatar {
+  width: 150px;
+  height: 150px;
+  margin: 10px 0;
+}
+
+.personal-info .avatar.default {
+  background-image: url("img/default-avatar.png");
+  background-size: cover;
+}
+
+.personal-info .government {
+  width: 200px;
+  height: 150px;
+  margin: 10px 0;
+}
+
+.personal-info .government.default-front {
+  background-image: url("img/default-government-front.png");
+  background-size: cover;
+}
+
+.personal-info .government.default-back {
+  background-image: url("img/default-government-back.png");
+  background-size: cover;
+}
+
+.references .email-box {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1199px) {
+  .text-right {
+    float: left;
+  }
+  .government {
+    margin: 20px 0!important;
+  }
+  .avatar {
+    margin: 20px 0!important;
+  }
+  .btn {
+    margin: 5px 0;
+  }
+}
+
+table {
+  width: 100%;
+}
+
+.table{
+  margin-bottom: 0!important;
+}
+
+thead, tbody, tr, td, th {
+  display: block;
+}
+
+tr:after {
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+thead th {
+  height: 30px;
+}
+
+tbody {
+  height: 300px;
+  overflow-y: auto;
+  margin: 0px 2px;
+}
+
+tbody td, thead th {
+  width: 33.2%;
+  float: left;
+}
+
+tbody::-webkit-scrollbar {
+  width: 5px;
+}
+
+tbody::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+tbody::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}

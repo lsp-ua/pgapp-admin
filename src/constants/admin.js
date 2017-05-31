@@ -1,0 +1,3 @@
+export const GET_LIST = 'ADMIN_GET_LIST';
+export const GET_ELEMENT = 'ADMIN_GET_ELEMENT';
+export const INVITE_ADMIN ='ADMIN_INVITE_ADMIN';

@@ -1,0 +1,7 @@
+thead, tr, td{
+  display: flex;
+
+}
+.date-picker-popover{
+  height:250px;
+}

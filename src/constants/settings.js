@@ -1,0 +1,3 @@
+export const GET_LIST = 'SETTINGS:GET_LIST';
+export const GET_ELEMENT = 'SETTINGS:GET_ELEMENT';
+export const SET_ELEMENT = 'SETTINGS:SET_ELEMENT';

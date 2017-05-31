@@ -1,0 +1,3 @@
+export const GET_ELEMENT = 'SHIFTS:GET_ELEMENT';
+export const GET_LIST = 'SHIFTS:GET_LIST';
+export const GET_PROF_LIST = 'SHIFTS:GET_PROF_LIST';
